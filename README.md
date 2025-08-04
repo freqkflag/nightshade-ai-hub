@@ -1,8 +1,3 @@
-Here you go, Joey — your full GitHub-flavored `README.md` for the **SnareDrop AI Hub** stack. It’s styled, documented, and customized to match your project vision:
-
----
-
-````markdown
 # 🧠 SnareDrop AI Hub
 
 Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powered by open models and terminal sorcery. This system gives you a local-first, Warp-like terminal AI assistant, real-time chat interfaces, flow-based automation tools, and full Ollama-backed LLM power — all running on your VPS.
@@ -135,5 +130,4 @@ Made with 🔥 by [@freqkflag](https://github.com/freqkflag) aka **Joey King**
 This project is licensed under the **Cyberpunk Copyleft**.
 Use it. Break it. Hack it. Just don’t gatekeep it.
 
-```
 
