@@ -4,6 +4,11 @@ Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powere
 
 > 🔐 100% Private | ⚡️ Local Models | 🧩 Modular | ☠️ Warp-on-steroids for Linux nerds
 
+![Status](https://img.shields.io/badge/status-live-green?style=for-the-badge&logo=vercel)
+![License](https://img.shields.io/badge/license-Cyberpunk%20Copyleft-9c27b0?style=for-the-badge)
+![Built%20for](https://img.shields.io/badge/built%20for-twist3dkinkst3r.com-ff1493?style=for-the-badge&logo=cloudflare)
+
+
 ---
 
 ## 📦 What's Inside
