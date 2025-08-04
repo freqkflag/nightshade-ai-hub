@@ -1,4 +1,4 @@
-# 🧠 CHANGELOG — SnareDrop AI Hub
+# 🧠 CHANGELOG — NightShade AI Hub
 
 All notable changes to this project will be documented here.
 
