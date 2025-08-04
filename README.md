@@ -1,6 +1,6 @@
 # 🧠 SnareDrop AI Hub
 
-Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powered by open models and terminal sorcery. This system gives you a local-first, Warp-like terminal AI assistant, real-time chat interfaces, flow-based automation tools, and full Ollama-backed LLM power — all running on your VPS.
+Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powered by open models and terminal sorcery. This system gives you a local-first, Warp-like terminal AI assistant, real-time LLM chat, and drag-and-drop workflow tools. All, 100% local.
 
 > 🔐 100% Private | ⚡️ Local Models | 🧩 Modular | ☠️ Warp-on-steroids for Linux nerds
 
@@ -16,7 +16,6 @@ Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powere
 ![Docker](https://img.shields.io/badge/Dockerized-yes-2496ed?style=flat-square&logo=docker)
 ![Coolify](https://img.shields.io/badge/Coolify%20Ready-yes-ff5722?style=flat-square&logo=githubactions)
 ![Dokploy](https://img.shields.io/badge/Dokploy%20Compatible-yes-795548?style=flat-square&logo=nginx)
-
 
 
 
@@ -40,7 +39,7 @@ Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powere
 ```bash
 git clone https://github.com/YOUR_USERNAME/snaredrop-ai-hub.git
 cd snaredrop-ai-hub
-````
+```
 
 2. Create your `.env` file:
 
@@ -145,5 +144,3 @@ Made with 🔥 by [@freqkflag](https://github.com/freqkflag) aka **Joey King**
 
 This project is licensed under the **Cyberpunk Copyleft**.
 Use it. Break it. Hack it. Just don’t gatekeep it.
-
-
