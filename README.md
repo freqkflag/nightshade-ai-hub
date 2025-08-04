@@ -8,6 +8,17 @@ Welcome to **SnareDrop AI Hub** — your all-in-one, self-hosted AI stack powere
 ![License](https://img.shields.io/badge/license-Cyberpunk%20Copyleft-9c27b0?style=for-the-badge)
 ![Built%20for](https://img.shields.io/badge/built%20for-twist3dkinkst3r.com-ff1493?style=for-the-badge&logo=cloudflare)
 
+![Ollama](https://img.shields.io/badge/Ollama-local--LLMs-4caf50?style=flat-square&logo=linux)
+![OpenInterpreter](https://img.shields.io/badge/Interpreter-AI%20Shell-blueviolet?style=flat-square&logo=gnome-terminal)
+![Flowise](https://img.shields.io/badge/Flowise-LLM%20Workflow-03a9f4?style=flat-square&logo=airflow)
+![OpenWebUI](https://img.shields.io/badge/OpenWebUI-Chat%20Interface-e91e63?style=flat-square&logo=webcomponents)
+
+![Docker](https://img.shields.io/badge/Dockerized-yes-2496ed?style=flat-square&logo=docker)
+![Coolify](https://img.shields.io/badge/Coolify%20Ready-yes-ff5722?style=flat-square&logo=githubactions)
+![Dokploy](https://img.shields.io/badge/Dokploy%20Compatible-yes-795548?style=flat-square&logo=nginx)
+
+
+
 
 ---
 
