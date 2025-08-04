@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  interpreter:
+    image: python:3.11
+    container_name: interpreter
+    depends_on:
+      - ollama
+    working_dir: /app
+    volumes:
+      - ./interpreter:/app
+    command: >
+      bash -c "
+      pip install open-interpreter &&
+      mkdir -p ~/.open-interpreter &&
+      echo \"model = 'http://ollama:11434'\" > ~/.open-interpreter/config &&
+      tail -f /dev/null"
+    restart: unless-stopped
+
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: openwebui
+    restart: unless-stopped
+    ports:
+      - "3002:8080"
+    volumes:
+      - openwebui_data:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+
+  flowise:
+    image: flowiseai/flowise
+    container_name: flowise
+    ports:
+      - "3003:3000"
+    volumes:
+      - flowise_data:/root/.flowise
+    restart: unless-stopped
+    environment:
+      - PORT=3000
+
+volumes:
+  ollama_data:
+  openwebui_data:
+  flowise_data:
